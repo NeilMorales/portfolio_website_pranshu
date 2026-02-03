@@ -17,11 +17,11 @@ export default function Hero() {
     <div className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Pranshu Ranjan
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-4 font-medium">
+          <p className="text-xl md:text-2xl text-gray-300 mb-6 font-medium">
             Computer Science Engineering Student
           </p>
 

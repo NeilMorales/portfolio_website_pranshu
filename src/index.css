@@ -21,6 +21,14 @@ html {
   animation: fade-in 0.8s ease-out;
 }
 
+/* Fix for gradient text clipping */
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 1.1;
+  padding: 0.1em 0;
+}
+
 /* Hide Bolt.new watermark/badge */
 [data-bolt-badge],
 [class*="bolt-badge"],
