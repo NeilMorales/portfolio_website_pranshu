@@ -43,12 +43,15 @@ export default function Hero() {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
 
-            <button
+            <a
+              href="https://drive.google.com/file/d/1FzE6WJ0PgizEz_Yipb_oesnioI25vSos/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-medium transition-all duration-200 flex items-center gap-2 w-full sm:w-auto justify-center border border-gray-700"
             >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
 
             <button
               onClick={() => scrollToSection('contact')}
