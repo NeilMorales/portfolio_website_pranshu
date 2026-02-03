@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+/* Hide Bolt.new watermark/badge */
+[data-bolt-badge],
+[class*="bolt-badge"],
+[id*="bolt-badge"],
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: absolute"][style*="bottom"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Hide any element containing "Made in Bolt" text */
+*:has-text("Made in Bolt"),
+*[title*="Made in Bolt"],
+*[alt*="Made in Bolt"] {
+  display: none !important;
+  visibility: hidden !important;
+}
